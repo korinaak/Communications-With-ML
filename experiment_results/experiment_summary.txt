@@ -1,0 +1,121 @@
+================================================================================
+TRUST-WEIGHTED FEDERATED LEARNING - EXPERIMENTAL RESULTS SUMMARY
+Generated: 20260210_222436
+================================================================================
+
+EXP1 MALICIOUS PCT
+--------------------------------------------------------------------------------
+{
+  "0": {
+    "std_acc_mean": 0.75,
+    "std_acc_std": 0.01019803902718558,
+    "trust_acc_mean": 0.9433333333333334,
+    "trust_acc_std": 0.03201388587611457,
+    "improvement_mean": 25.780984583533606,
+    "improvement_std": 4.0502022014595855,
+    "conv_std_mean": NaN,
+    "conv_trust_mean": 13.333333333333334
+  },
+  "5": {
+    "std_acc_mean": 0.75,
+    "std_acc_std": 0.01019803902718558,
+    "trust_acc_mean": 0.9433333333333334,
+    "trust_acc_std": 0.03201388587611457,
+    "improvement_mean": 25.780984583533606,
+    "improvement_std": 4.0502022014595855,
+    "conv_std_mean": NaN,
+    "conv_trust_mean": 13.333333333333334
+  },
+  "10": {
+    "std_acc_mean": 0.6973333333333334,
+    "std_acc_std": 0.10563248658543556,
+    "trust_acc_mean": 0.9313333333333333,
+    "trust_acc_std": 0.016357125528513698,
+    "improvement_mean": 36.80393358093707,
+    "improvement_std": 21.439838333897157,
+    "conv_std_mean": 22.0,
+    "conv_trust_mean": 16.0
+  },
+  "15": {
+    "std_acc_mean": 0.7159999999999999,
+    "std_acc_std": 0.026882460204874576,
+    "trust_acc_mean": 0.9306666666666668,
+    "trust_acc_std": 0.004988876515698593,
+    "improvement_mean": 30.17568035727662,
+    "improvement_std": 5.215825128852789,
+    "conv_std_mean": NaN,
+    "conv_trust_mean": 16.0
+  },
+  "20": {
+    "std_acc_mean": 0.532,
+    "std_acc_std": 0.0645187311303211,
+    "trust_acc_mean": 0.8746666666666667,
+    "trust_acc_std": 0.018571184369578844,
+    "improvement_mean": 67.53512149494416,
+    "improvement_std": 25.768381750629477,
+    "conv_std_mean": NaN,
+    "conv_trust_mean": 27.666666666666668
+  }
+}
+
+EXP2 DECAY SENSITIVITY
+--------------------------------------------------------------------------------
+{
+  "0.7": {
+    "std_acc_mean": 0.558,
+    "trust_acc_mean": 0.953,
+    "trust_acc_std": 0.0010000000000000009,
+    "improvement_mean": 74.16666666666666,
+    "malicious_detection": 3.0
+  },
+  "0.8": {
+    "std_acc_mean": 0.526,
+    "trust_acc_mean": 0.947,
+    "trust_acc_std": 0.0010000000000000009,
+    "improvement_mean": 80.17071759259258,
+    "malicious_detection": 4.0
+  },
+  "0.9": {
+    "std_acc_mean": 0.706,
+    "trust_acc_mean": 0.934,
+    "trust_acc_std": 0.0020000000000000018,
+    "improvement_mean": 32.49178140548014,
+    "malicious_detection": 4.5
+  },
+  "0.95": {
+    "std_acc_mean": 0.651,
+    "trust_acc_mean": 0.933,
+    "trust_acc_std": 0.014999999999999958,
+    "improvement_mean": 43.310397553516815,
+    "malicious_detection": 4.5
+  }
+}
+
+EXP3 SCALABILITY
+--------------------------------------------------------------------------------
+{
+  "10": {
+    "std_acc_mean": 0.7,
+    "trust_acc_mean": 0.934,
+    "trust_acc_std": 0.0,
+    "improvement_mean": 34.69969672995781
+  },
+  "20": {
+    "std_acc_mean": 0.706,
+    "trust_acc_mean": 0.934,
+    "trust_acc_std": 0.0020000000000000018,
+    "improvement_mean": 32.49178140548014
+  },
+  "40": {
+    "std_acc_mean": 0.602,
+    "trust_acc_mean": 0.971,
+    "trust_acc_std": 0.0050000000000000044,
+    "improvement_mean": 61.37635952078617
+  },
+  "80": {
+    "std_acc_mean": 0.762,
+    "trust_acc_mean": 0.976,
+    "trust_acc_std": 0.0,
+    "improvement_mean": 28.115762273901804
+  }
+}
